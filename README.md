@@ -54,12 +54,12 @@ Effective inventory and sales management are critical in the retail sector. This
 vendor-performance-analysis/
 ├── scripts/
 │   ├── ingestion_db.py
-│   └── get_vendor_summary.py
+│   └── Vendor_Summary_GET.py
 ├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
-│   └── vendor_performance_analysis.ipynb
+│   ├── Exploratory Data Analysis.ipynb
+│   └── Vendor Performance Analysis.ipynb
 ├── dashboard/
-│   └── vendor_performance_dashboard.pbix
+│   └── Vendor Sales.pbix
 └── README.md
 ```
 
@@ -130,18 +130,18 @@ python scripts/ingestion_db.py
 
 ### 3. Create Vendor Summary Table
 ```bash
-python scripts/get_vendor_summary.py
+python scripts/Vendor_Summary_GET.py
 ```
 
 ### 4. Run Analysis Notebooks
 Open and run the following Jupyter notebooks in order:
-- `notebooks/exploratory_data_analysis.ipynb`
+- `notebooks/Exploratory Data Analysis.ipynb`
 - `notebooks/vendor_performance_analysis.ipynb`
 
 ### 5. Open Power BI Dashboard
 Open the dashboard file:
 ```
-dashboard/vendor_performance_dashboard.pbix
+dashboard/Vendor Sales.pbix
 ```
 
 ## Prerequisites
