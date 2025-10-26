@@ -1,0 +1,477 @@
+2025-09-14 23:39:42,640 - INFO - Application started
+2025-09-14 23:41:37,856 - ERROR - No such comm target registered: jupyter.widget.control
+2025-09-14 23:41:37,860 - WARNING - No such comm: 20b59b62-dce9-4a36-a9d6-c4bd15f82db5
+2025-09-14 23:41:37,860 - DEBUG - Current comms: []
+2025-09-14 23:41:58,425 - INFO - Application started
+2025-09-14 23:55:00,635 - ERROR - Exception terminating connection <pymysql.connections.Connection object at 0x00000183FF8A1810>
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2358, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1815, in _execute_context
+    context = constructor(
+        dialect, self, conn, execution_options, *args, **kw
+    )
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 1526, in _init_compiled
+    key: (
+    ...<2 lines>...
+        else compiled_params[key]
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 372, in _close_connection
+    self._dialect.do_terminate(connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_terminate
+    self.do_close(dbapi_connection)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 720, in do_close
+    dbapi_connection.close()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 430, in close
+    self._write_bytes(send_data)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 811, in _write_bytes
+    self._sock.settimeout(self._write_timeout)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-09-14 23:55:00,928 - ERROR - Exception terminating connection <pymysql.connections.Connection object at 0x00000183FF8A1810>
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2358, in _handle_dbapi_exception
+    raise exc_info[1].with_traceback(exc_info[2])
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1815, in _execute_context
+    context = constructor(
+        dialect, self, conn, execution_options, *args, **kw
+    )
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 1526, in _init_compiled
+    key: (
+    ...<2 lines>...
+        else compiled_params[key]
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 844, in to_sql
+    return pandas_sql.to_sql(
+           ~~~~~~~~~~~~~~~~~^
+        frame,
+        ^^^^^^
+    ...<9 lines>...
+        **engine_kwargs,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 2030, in to_sql
+    total_inserted = sql_engine.insert_records(
+        table=table,
+    ...<7 lines>...
+        **engine_kwargs,
+    )
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 1570, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 1121, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\io\sql.py", line 1012, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1419, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1821, in _execute_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str(statement), parameters, None, None
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2368, in _handle_dbapi_exception
+    self.invalidate(e)
+    ~~~~~~~~~~~~~~~^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 747, in invalidate
+    pool_proxied_connection.invalidate(exception)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 1475, in invalidate
+    self._connection_record.invalidate(e=e, soft=soft)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 815, in invalidate
+    self.__close(terminate=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 882, in __close
+    self.__pool._close_connection(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.dbapi_connection, terminate=terminate
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 372, in _close_connection
+    self._dialect.do_terminate(connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_terminate
+    self.do_close(dbapi_connection)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 720, in do_close
+    dbapi_connection.close()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 430, in close
+    self._write_bytes(send_data)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 811, in _write_bytes
+    self._sock.settimeout(self._write_timeout)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1145, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 714, in do_commit
+    dbapi_connection.commit()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 494, in commit
+    self._execute_command(COMMAND.COM_QUERY, "COMMIT")
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 844, in _execute_command
+    raise err.InterfaceError(0, "")
+pymysql.err.InterfaceError: (0, '')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\base.py", line 1145, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 714, in do_commit
+    dbapi_connection.commit()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 494, in commit
+    self._execute_command(COMMAND.COM_QUERY, "COMMIT")
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 844, in _execute_command
+    raise err.InterfaceError(0, "")
+sqlalchemy.exc.InterfaceError: (pymysql.err.InterfaceError) (0, '')
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\pool\base.py", line 372, in _close_connection
+    self._dialect.do_terminate(connection)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 717, in do_terminate
+    self.do_close(dbapi_connection)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\sqlalchemy\engine\default.py", line 720, in do_close
+    dbapi_connection.close()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\honnu\AppData\Local\Programs\Python\Python313\Lib\site-packages\pymysql\connections.py", line 424, in close
+    raise err.Error("Already closed")
+pymysql.err.Error: Already closed
+2025-09-14 23:55:36,500 - INFO - Application started
+2025-09-14 23:57:21,242 - INFO - Application started
+2025-09-15 00:05:57,673 - INFO - Application started
+2025-09-15 00:05:57,793 - INFO - Processing file: begin_inventory.csv -> table: begin_inventory
+2025-09-15 00:06:31,846 - INFO - Chunk inserted into table 'begin_inventory' (100000 rows)
+2025-09-15 00:06:31,846 - INFO - Chunk 1 inserted from begin_inventory.csv
+2025-09-15 00:07:05,509 - INFO - Chunk inserted into table 'begin_inventory' (100000 rows)
+2025-09-15 00:07:05,509 - INFO - Chunk 2 inserted from begin_inventory.csv
+2025-09-15 00:07:07,655 - INFO - Chunk inserted into table 'begin_inventory' (6529 rows)
+2025-09-15 00:07:07,655 - INFO - Chunk 3 inserted from begin_inventory.csv
+2025-09-15 00:07:07,656 - INFO - Processing file: end_inventory.csv -> table: end_inventory
+2025-09-15 00:07:42,499 - INFO - Chunk inserted into table 'end_inventory' (100000 rows)
+2025-09-15 00:07:42,499 - INFO - Chunk 1 inserted from end_inventory.csv
+2025-09-15 10:09:16,102 - INFO - Application started
+2025-09-15 10:48:50,904 - INFO - ----------Ingest Completed-----------
+2025-09-15 10:48:50,916 - INFO - 
+Total Time Taken : 39.578851505120596 minutes
+2025-09-17 22:41:20,359 - INFO - Application started
+2025-09-17 22:44:55,117 - INFO - Creating Vendor Summary Table...
+2025-09-17 22:46:32,151 - INFO - Summary head:
+   VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          26.27        36.99   1750               145080.0   
+1          23.19        28.99   1750               164038.0   
+2          18.24        24.99   1750               187407.0   
+3          16.17        22.99   1750               201682.0   
+4          21.89        29.99   1750               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2025-09-17 22:46:32,151 - INFO - Cleaning Data...
+2025-09-17 22:46:32,202 - INFO - Cleaned head:
+   VendorNumber                VendorName  Brand              Description  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          26.27        36.99  1750.0               145080.0   
+1          23.19        28.99  1750.0               164038.0   
+2          18.24        24.99  1750.0               187407.0   
+3          16.17        22.99  1750.0               201682.0   
+4          21.89        29.99  1750.0               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  \
+0        672819.31       260999.20     68601.68   1290667.91     25.297693   
+1        561512.37       294438.66    144929.24   1015032.27     21.062810   
+2        461140.15       343854.07    123780.22   1119816.92     24.675786   
+3        420050.01       368242.80    257032.07   1214774.94     27.139908   
+4        545778.28       249587.83    257032.07   1199901.61     28.412764   
+
+   StockTurnover  SalestoPurchaseRatio  
+0       0.979108              1.338647  
+1       0.976890              1.266830  
+2       0.998575              1.327594  
+3       0.993703              1.372493  
+4       0.983556              1.396897  
+2025-09-17 22:46:32,202 - INFO - Ingesting data into DB...
+2025-09-17 22:47:56,890 - INFO - Creating Vendor Summary Table...
+2025-09-17 22:49:35,014 - INFO - Summary head:
+   VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          26.27        36.99   1750               145080.0   
+1          23.19        28.99   1750               164038.0   
+2          18.24        24.99   1750               187407.0   
+3          16.17        22.99   1750               201682.0   
+4          21.89        29.99   1750               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2025-09-17 22:49:35,014 - INFO - Cleaning Data...
+2025-09-17 22:49:35,052 - INFO - Cleaned head:
+   VendorNumber                VendorName  Brand              Description  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          26.27        36.99  1750.0               145080.0   
+1          23.19        28.99  1750.0               164038.0   
+2          18.24        24.99  1750.0               187407.0   
+3          16.17        22.99  1750.0               201682.0   
+4          21.89        29.99  1750.0               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  \
+0        672819.31       260999.20     68601.68   1290667.91     25.297693   
+1        561512.37       294438.66    144929.24   1015032.27     21.062810   
+2        461140.15       343854.07    123780.22   1119816.92     24.675786   
+3        420050.01       368242.80    257032.07   1214774.94     27.139908   
+4        545778.28       249587.83    257032.07   1199901.61     28.412764   
+
+   StockTurnover  SalestoPurchaseRatio  
+0       0.979108              1.338647  
+1       0.976890              1.266830  
+2       0.998575              1.327594  
+3       0.993703              1.372493  
+4       0.983556              1.396897  
+2025-09-17 22:49:35,052 - INFO - Ingesting data into DB...
+2025-09-17 22:49:38,995 - ERROR - No such comm target registered: jupyter.widget.control
+2025-09-17 22:49:38,997 - WARNING - No such comm: e6650665-f956-4721-8915-4070e36ae465
+2025-09-17 22:49:38,997 - DEBUG - Current comms: []
+2025-09-17 22:56:12,094 - INFO - Creating Vendor Summary Table...
+2025-09-17 22:57:56,194 - INFO - Summary head:
+   VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          26.27        36.99   1750               145080.0   
+1          23.19        28.99   1750               164038.0   
+2          18.24        24.99   1750               187407.0   
+3          16.17        22.99   1750               201682.0   
+4          21.89        29.99   1750               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2025-09-17 22:57:56,194 - INFO - Cleaning Data...
+2025-09-17 22:57:56,252 - INFO - Cleaned head:
+   VendorNumber                VendorName  Brand              Description  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          26.27        36.99  1750.0               145080.0   
+1          23.19        28.99  1750.0               164038.0   
+2          18.24        24.99  1750.0               187407.0   
+3          16.17        22.99  1750.0               201682.0   
+4          21.89        29.99  1750.0               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  \
+0        672819.31       260999.20     68601.68   1290667.91     25.297693   
+1        561512.37       294438.66    144929.24   1015032.27     21.062810   
+2        461140.15       343854.07    123780.22   1119816.92     24.675786   
+3        420050.01       368242.80    257032.07   1214774.94     27.139908   
+4        545778.28       249587.83    257032.07   1199901.61     28.412764   
+
+   StockTurnover  SalestoPurchaseRatio  
+0       0.979108              1.338647  
+1       0.976890              1.266830  
+2       0.998575              1.327594  
+3       0.993703              1.372493  
+4       0.983556              1.396897  
+2025-09-17 22:57:56,252 - INFO - Ingesting data into DB...
+2025-09-17 22:57:58,217 - INFO - Data ingestion completed.
+2025-09-17 23:06:59,083 - INFO - Creating Vendor Summary Table...
+2025-09-17 23:08:38,367 - INFO - Summary head:
+   VendorNumber                   VendorName  Brand              Description  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice Volume  TotalPurchaseQuantity  \
+0          26.27        36.99   1750               145080.0   
+1          23.19        28.99   1750               164038.0   
+2          18.24        24.99   1750               187407.0   
+3          16.17        22.99   1750               201682.0   
+4          21.89        29.99   1750               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2025-09-17 23:08:38,367 - INFO - Cleaning Data...
+2025-09-17 23:08:38,415 - INFO - Cleaned head:
+   VendorNumber                VendorName  Brand              Description  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PurchasePrice  ActualPrice  Volume  TotalPurchaseQuantity  \
+0          26.27        36.99  1750.0               145080.0   
+1          23.19        28.99  1750.0               164038.0   
+2          18.24        24.99  1750.0               187407.0   
+3          16.17        22.99  1750.0               201682.0   
+4          21.89        29.99  1750.0               138109.0   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0       5.101920e+06   
+1            3804041.22            160247.0       4.819073e+06   
+2            3418303.68            187140.0       4.538121e+06   
+3            3261197.94            200412.0       4.475973e+06   
+4            3023206.01            135838.0       4.223108e+06   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  \
+0        672819.31       260999.20     68601.68   1290667.91     25.297693   
+1        561512.37       294438.66    144929.24   1015032.27     21.062810   
+2        461140.15       343854.07    123780.22   1119816.92     24.675786   
+3        420050.01       368242.80    257032.07   1214774.94     27.139908   
+4        545778.28       249587.83    257032.07   1199901.61     28.412764   
+
+   StockTurnover  SalestoPurchaseRatio  
+0       0.979108              1.338647  
+1       0.976890              1.266830  
+2       0.998575              1.327594  
+3       0.993703              1.372493  
+4       0.983556              1.396897  
+2025-09-17 23:08:38,416 - INFO - Ingesting data into DB...
+2025-09-17 23:08:40,211 - INFO - Data ingestion completed.

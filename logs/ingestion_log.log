@@ -1,0 +1,226 @@
+2025-09-15 00:11:27,184 - INFO - Application started
+2025-09-15 00:11:27,286 - INFO - Processing file: begin_inventory.csv -> table: begin_inventory
+2025-09-15 00:12:02,633 - INFO - Chunk inserted into table 'begin_inventory' (100000 rows)
+2025-09-15 00:12:02,633 - INFO - Chunk 1 inserted from begin_inventory.csv
+2025-09-15 00:12:37,658 - INFO - Chunk inserted into table 'begin_inventory' (100000 rows)
+2025-09-15 00:12:37,658 - INFO - Chunk 2 inserted from begin_inventory.csv
+2025-09-15 00:12:39,783 - INFO - Chunk inserted into table 'begin_inventory' (6529 rows)
+2025-09-15 00:12:39,783 - INFO - Chunk 3 inserted from begin_inventory.csv
+2025-09-15 00:12:39,784 - INFO - Processing file: end_inventory.csv -> table: end_inventory
+2025-09-15 00:13:15,333 - INFO - Chunk inserted into table 'end_inventory' (100000 rows)
+2025-09-15 00:13:15,334 - INFO - Chunk 1 inserted from end_inventory.csv
+2025-09-15 00:13:51,063 - INFO - Chunk inserted into table 'end_inventory' (100000 rows)
+2025-09-15 00:13:51,063 - INFO - Chunk 2 inserted from end_inventory.csv
+2025-09-15 00:13:59,292 - INFO - Chunk inserted into table 'end_inventory' (24489 rows)
+2025-09-15 00:13:59,292 - INFO - Chunk 3 inserted from end_inventory.csv
+2025-09-15 00:13:59,294 - INFO - Processing file: purchases.csv -> table: purchases
+2025-09-15 00:15:01,644 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:15:01,644 - INFO - Chunk 1 inserted from purchases.csv
+2025-09-15 00:16:03,584 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:16:03,584 - INFO - Chunk 2 inserted from purchases.csv
+2025-09-15 00:17:05,313 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:17:05,313 - INFO - Chunk 3 inserted from purchases.csv
+2025-09-15 00:17:59,965 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:17:59,965 - INFO - Chunk 4 inserted from purchases.csv
+2025-09-15 00:18:59,109 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:18:59,109 - INFO - Chunk 5 inserted from purchases.csv
+2025-09-15 00:20:01,751 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:20:01,751 - INFO - Chunk 6 inserted from purchases.csv
+2025-09-15 00:21:00,788 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:21:00,788 - INFO - Chunk 7 inserted from purchases.csv
+2025-09-15 00:22:03,022 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:22:03,023 - INFO - Chunk 8 inserted from purchases.csv
+2025-09-15 00:22:59,784 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:22:59,784 - INFO - Chunk 9 inserted from purchases.csv
+2025-09-15 00:24:01,986 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:24:01,987 - INFO - Chunk 10 inserted from purchases.csv
+2025-09-15 00:25:04,155 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:25:04,155 - INFO - Chunk 11 inserted from purchases.csv
+2025-09-15 00:25:59,761 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:25:59,761 - INFO - Chunk 12 inserted from purchases.csv
+2025-09-15 00:26:59,202 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:26:59,203 - INFO - Chunk 13 inserted from purchases.csv
+2025-09-15 00:28:00,456 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:28:00,456 - INFO - Chunk 14 inserted from purchases.csv
+2025-09-15 00:28:55,870 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:28:55,870 - INFO - Chunk 15 inserted from purchases.csv
+2025-09-15 00:29:58,436 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:29:58,436 - INFO - Chunk 16 inserted from purchases.csv
+2025-09-15 00:30:58,081 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:30:58,081 - INFO - Chunk 17 inserted from purchases.csv
+2025-09-15 00:32:00,666 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:32:00,666 - INFO - Chunk 18 inserted from purchases.csv
+2025-09-15 00:33:02,525 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:33:02,525 - INFO - Chunk 19 inserted from purchases.csv
+2025-09-15 00:33:49,494 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:33:49,494 - INFO - Chunk 20 inserted from purchases.csv
+2025-09-15 00:34:25,346 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:34:25,346 - INFO - Chunk 21 inserted from purchases.csv
+2025-09-15 00:35:01,417 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:35:01,417 - INFO - Chunk 22 inserted from purchases.csv
+2025-09-15 00:35:37,547 - INFO - Chunk inserted into table 'purchases' (100000 rows)
+2025-09-15 00:35:37,547 - INFO - Chunk 23 inserted from purchases.csv
+2025-09-15 00:36:02,416 - INFO - Chunk inserted into table 'purchases' (72474 rows)
+2025-09-15 00:36:02,416 - INFO - Chunk 24 inserted from purchases.csv
+2025-09-15 00:36:02,417 - INFO - Processing file: purchase_prices.csv -> table: purchase_prices
+2025-09-15 00:36:04,735 - INFO - Chunk inserted into table 'purchase_prices' (12261 rows)
+2025-09-15 00:36:04,735 - INFO - Chunk 1 inserted from purchase_prices.csv
+2025-09-15 00:36:04,735 - INFO - Processing file: sales.csv -> table: sales
+2025-09-15 00:36:37,052 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:36:37,052 - INFO - Chunk 1 inserted from sales.csv
+2025-09-15 00:37:08,459 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:37:08,459 - INFO - Chunk 2 inserted from sales.csv
+2025-09-15 00:37:39,463 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:37:39,463 - INFO - Chunk 3 inserted from sales.csv
+2025-09-15 00:38:10,976 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:38:10,976 - INFO - Chunk 4 inserted from sales.csv
+2025-09-15 00:38:44,655 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:38:44,655 - INFO - Chunk 5 inserted from sales.csv
+2025-09-15 00:39:16,681 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:39:16,681 - INFO - Chunk 6 inserted from sales.csv
+2025-09-15 00:39:50,493 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:39:50,494 - INFO - Chunk 7 inserted from sales.csv
+2025-09-15 00:40:23,204 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:40:23,205 - INFO - Chunk 8 inserted from sales.csv
+2025-09-15 00:40:55,967 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:40:55,967 - INFO - Chunk 9 inserted from sales.csv
+2025-09-15 00:41:29,365 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:41:29,365 - INFO - Chunk 10 inserted from sales.csv
+2025-09-15 00:42:02,395 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:42:02,396 - INFO - Chunk 11 inserted from sales.csv
+2025-09-15 00:42:35,635 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:42:35,635 - INFO - Chunk 12 inserted from sales.csv
+2025-09-15 00:43:09,175 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:43:09,175 - INFO - Chunk 13 inserted from sales.csv
+2025-09-15 00:43:41,988 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:43:41,988 - INFO - Chunk 14 inserted from sales.csv
+2025-09-15 00:44:15,691 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:44:15,691 - INFO - Chunk 15 inserted from sales.csv
+2025-09-15 00:44:48,717 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:44:48,717 - INFO - Chunk 16 inserted from sales.csv
+2025-09-15 00:45:22,148 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:45:22,148 - INFO - Chunk 17 inserted from sales.csv
+2025-09-15 00:45:56,443 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:45:56,443 - INFO - Chunk 18 inserted from sales.csv
+2025-09-15 00:46:30,077 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:46:30,077 - INFO - Chunk 19 inserted from sales.csv
+2025-09-15 00:47:03,210 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:47:03,210 - INFO - Chunk 20 inserted from sales.csv
+2025-09-15 00:47:35,935 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:47:35,936 - INFO - Chunk 21 inserted from sales.csv
+2025-09-15 00:48:08,362 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:48:08,362 - INFO - Chunk 22 inserted from sales.csv
+2025-09-15 00:48:41,813 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:48:41,813 - INFO - Chunk 23 inserted from sales.csv
+2025-09-15 00:49:12,717 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:49:12,717 - INFO - Chunk 24 inserted from sales.csv
+2025-09-15 00:49:45,144 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:49:45,144 - INFO - Chunk 25 inserted from sales.csv
+2025-09-15 00:50:16,853 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:50:16,854 - INFO - Chunk 26 inserted from sales.csv
+2025-09-15 00:50:48,585 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:50:48,585 - INFO - Chunk 27 inserted from sales.csv
+2025-09-15 00:51:21,591 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:51:21,591 - INFO - Chunk 28 inserted from sales.csv
+2025-09-15 00:51:57,602 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:51:57,602 - INFO - Chunk 29 inserted from sales.csv
+2025-09-15 00:52:51,022 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:52:51,022 - INFO - Chunk 30 inserted from sales.csv
+2025-09-15 00:53:33,462 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:53:33,462 - INFO - Chunk 31 inserted from sales.csv
+2025-09-15 00:54:05,898 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:54:05,898 - INFO - Chunk 32 inserted from sales.csv
+2025-09-15 00:54:38,428 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:54:38,428 - INFO - Chunk 33 inserted from sales.csv
+2025-09-15 00:55:11,033 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:55:11,033 - INFO - Chunk 34 inserted from sales.csv
+2025-09-15 00:55:42,435 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:55:42,436 - INFO - Chunk 35 inserted from sales.csv
+2025-09-15 00:56:13,347 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:56:13,347 - INFO - Chunk 36 inserted from sales.csv
+2025-09-15 00:56:45,644 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:56:45,644 - INFO - Chunk 37 inserted from sales.csv
+2025-09-15 00:57:17,781 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:57:17,781 - INFO - Chunk 38 inserted from sales.csv
+2025-09-15 00:57:50,533 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:57:50,533 - INFO - Chunk 39 inserted from sales.csv
+2025-09-15 00:58:21,967 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:58:21,967 - INFO - Chunk 40 inserted from sales.csv
+2025-09-15 00:58:53,770 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:58:53,770 - INFO - Chunk 41 inserted from sales.csv
+2025-09-15 00:59:24,760 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:59:24,760 - INFO - Chunk 42 inserted from sales.csv
+2025-09-15 00:59:57,148 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 00:59:57,148 - INFO - Chunk 43 inserted from sales.csv
+2025-09-15 01:00:29,434 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:00:29,434 - INFO - Chunk 44 inserted from sales.csv
+2025-09-15 01:01:00,860 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:01:00,860 - INFO - Chunk 45 inserted from sales.csv
+2025-09-15 01:01:32,476 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:01:32,476 - INFO - Chunk 46 inserted from sales.csv
+2025-09-15 01:02:04,803 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:02:04,803 - INFO - Chunk 47 inserted from sales.csv
+2025-09-15 01:02:36,840 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:02:36,840 - INFO - Chunk 48 inserted from sales.csv
+2025-09-15 01:03:07,889 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:03:07,889 - INFO - Chunk 49 inserted from sales.csv
+2025-09-15 01:03:39,886 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:03:39,886 - INFO - Chunk 50 inserted from sales.csv
+2025-09-15 01:04:11,885 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:04:11,885 - INFO - Chunk 51 inserted from sales.csv
+2025-09-15 01:04:44,013 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:04:44,013 - INFO - Chunk 52 inserted from sales.csv
+2025-09-15 01:05:15,824 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:05:15,824 - INFO - Chunk 53 inserted from sales.csv
+2025-09-15 01:05:47,918 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:05:47,918 - INFO - Chunk 54 inserted from sales.csv
+2025-09-15 01:06:18,946 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:06:18,946 - INFO - Chunk 55 inserted from sales.csv
+2025-09-15 01:06:51,746 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:06:51,746 - INFO - Chunk 56 inserted from sales.csv
+2025-09-15 01:07:23,511 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:07:23,511 - INFO - Chunk 57 inserted from sales.csv
+2025-09-15 01:07:55,852 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:07:55,852 - INFO - Chunk 58 inserted from sales.csv
+2025-09-15 01:08:26,994 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:08:26,995 - INFO - Chunk 59 inserted from sales.csv
+2025-09-15 01:08:58,459 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:08:58,459 - INFO - Chunk 60 inserted from sales.csv
+2025-09-15 01:09:31,091 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:09:31,091 - INFO - Chunk 61 inserted from sales.csv
+2025-09-15 01:10:03,811 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 01:10:03,811 - INFO - Chunk 62 inserted from sales.csv
+2025-09-15 05:22:46,445 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:22:46,445 - INFO - Chunk 63 inserted from sales.csv
+2025-09-15 05:23:11,742 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:23:11,742 - INFO - Chunk 64 inserted from sales.csv
+2025-09-15 05:23:36,300 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:23:36,300 - INFO - Chunk 65 inserted from sales.csv
+2025-09-15 05:24:01,567 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:24:01,567 - INFO - Chunk 66 inserted from sales.csv
+2025-09-15 05:24:44,880 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:24:44,880 - INFO - Chunk 67 inserted from sales.csv
+2025-09-15 05:25:39,114 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:25:39,114 - INFO - Chunk 68 inserted from sales.csv
+2025-09-15 05:26:37,328 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:26:37,329 - INFO - Chunk 69 inserted from sales.csv
+2025-09-15 05:27:33,409 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:27:33,409 - INFO - Chunk 70 inserted from sales.csv
+2025-09-15 05:28:28,336 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:28:28,336 - INFO - Chunk 71 inserted from sales.csv
+2025-09-15 05:29:26,264 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:29:26,264 - INFO - Chunk 72 inserted from sales.csv
+2025-09-15 05:30:22,697 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:30:22,697 - INFO - Chunk 73 inserted from sales.csv
+2025-09-15 05:31:18,162 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:31:18,162 - INFO - Chunk 74 inserted from sales.csv
+2025-09-15 05:32:13,062 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:32:13,063 - INFO - Chunk 75 inserted from sales.csv
+2025-09-15 05:33:10,959 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:33:10,959 - INFO - Chunk 76 inserted from sales.csv
+2025-09-15 05:34:07,695 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 05:34:07,695 - INFO - Chunk 77 inserted from sales.csv
+2025-09-15 08:35:02,453 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 08:35:02,453 - INFO - Chunk 78 inserted from sales.csv
+2025-09-15 10:08:57,070 - INFO - Chunk inserted into table 'sales' (100000 rows)
+2025-09-15 10:08:57,070 - INFO - Chunk 79 inserted from sales.csv
